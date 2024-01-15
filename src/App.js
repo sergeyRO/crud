@@ -10,7 +10,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       notes: [],
-      form: { text: '123' },
+      form: { text: 'То, что было введено в поле ввода' },
     }
     this.handleFormChange = this.handleFormChange.bind(this);
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
